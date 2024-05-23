@@ -155,6 +155,33 @@ hr {
     max-width: 300px;
     max-height: 300px;
 }
+/* Meetup times section */
+
+#times {
+    background: url(../images/dublin-city.webp) no-repeat center/cover;
+    /* Handles responsivity without the need of media query */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0,0,0,.6);
+    padding:15px;
+    text-align: center;
+    /* This will not wrap on screens less than 400px wide
+    Each row will expand to fill the available space on its row*/
+    flex-basis: 200px;
+    flex-grow:1;
+    /* Creates a grid of meetup time divs over the background image */
+    border: 2px solid white;
+}
+
+#times h3 {
+    /* override the heading color styles in general styles*/
+    color: #fafafa;
+}
+
 
 /* Footer */
 #social-networks {
