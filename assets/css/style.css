@@ -214,6 +214,16 @@ hr {
     color:#3a3a3a;
 }
 
+/* Media query: large and landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        /* Masonry Design */
+        column-count: 2;
+        column-gap:0;
+
+    }
+}
+
 /* Media query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
@@ -271,6 +281,12 @@ hr {
         text-align: end;
         align-self: flex-end;
     }
+
+    /* Gallery */
+    #photos {
+        column-count: 3;
+
+    }
 }
 
 
@@ -279,6 +295,11 @@ hr {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
+    /* Gallery */
+    #photos {
+        column-count: 4;
+    
+        }
 }
 
 /* Media Query: Laptops and upwards (1200px and up) */
