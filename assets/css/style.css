@@ -185,6 +185,19 @@ hr {
     color: #fafafa;
 }
 
+/* Gallery Page */
+
+#photos img {
+    width:100%;
+    /* so that alt text for images is readable if an image breaks */
+    line-height: 1em;
+}
+
+#photos {
+    /* the default line height adds space between the photos */
+    line-height:0;
+}
+
 
 /* Footer */
 #social-networks {
