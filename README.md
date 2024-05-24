@@ -1,39 +1,59 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome,
-
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
+# Love Running
 ---
 
-Happy coding!
+Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and
+keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club.
+
+![Device Screens](https://github.com/hennasingh/love-running/assets/22836317/bd70bd67-5bc3-4de4-b7da-f75f697aada3)
+
+
+## Features
+
+- *Navigation Bar
+  -- Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  -- This section will allow to easily navigate from page to page across all devices without having to revert back to the previous page via the 'back' button
+
+  ![navigation icons for Home, Gallery and Sign-up](https://github.com/hennasingh/love-running/assets/22836317/69736d3e-8426-4b97-be1a-a88c18fe1139)
+
+- * The landing page image
+   -- The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
+   -- This section introduces the user to Love Running with an eye catching animation to grab their attention.
+
+![Landing image of a girl smiling and running](https://github.com/hennasingh/love-running/assets/22836317/56dfc091-4ff1-4107-9006-3045247292b7)
+
+- * Club Ethos Section
+   -- The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
+   -- This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
+
+![Benefits of Running](https://github.com/hennasingh/love-running/assets/22836317/10cc4bd6-e8ab-4002-af33-5bd54371e60a)
+
+- * Meetup Times section
+  -- This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
+  -- This section will be updated as these times change to keep the user up to date.
+
+![Meeting times and location](https://github.com/hennasingh/love-running/assets/22836317/1d1dcd56-813d-40c9-baf1-3666caaf280d)
+
+- * The Footer
+
+  -- The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
+  -- The footer is valuable to the user as it encourages them to keep connected via social media
+
+![Social Media links](https://github.com/hennasingh/love-running/assets/22836317/fda00c05-1956-4956-b818-ecdcdbaff0ae)
+
+- * Gallery
+
+  -- The gallery will provide the user with supporting images to see what the meet ups look like.
+  -- This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
+
+![Gallery](https://github.com/hennasingh/love-running/assets/22836317/2a94d588-4168-4acc-803e-4945f0370f52)
+
+- * The Sign Up Page
+
+  -- This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of       running. The user will be asked to submit their full name and email address.
+
+![Signup](https://github.com/hennasingh/love-running/assets/22836317/9fd7af05-d4f3-44d7-ba2d-0362aa491e2a)
+
+## Credits
+---
+
+This project is taken from Love Running Essentials Module, part of Diploma in Full Stack Development at [Code Institute](http://codeinstitute.net/)
